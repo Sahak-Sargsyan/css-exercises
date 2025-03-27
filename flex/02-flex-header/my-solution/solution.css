@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    display: flex;
+}
+
+a {
+    font-size: 22px;
+    background: white;
+    padding: 8px;
+    /* this removes the line under the links */
+    text-decoration: none;
+    margin: 10px;
+}
+
+.logo {
+    background-color: #fff;
+    align-content: center;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    color: tomato;
+    padding: 4px 32px;
+  margin: 10px;
+}
+
+.left-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-right{
+    display: flex;
+    justify-content: space-between;
+}
